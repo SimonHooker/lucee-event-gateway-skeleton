@@ -24,7 +24,7 @@ component extends='Gateway' {
 
     string function getDescription() {
         // Description of this event gateway, this will appear in the admin panel when editing a gateway of this type.
-        return 'Connect to a Slack server and react to messages';
+        return 'This gateway is pointless, it just shows how to get started';
     }
 
     void function onBeforeUpdate(
