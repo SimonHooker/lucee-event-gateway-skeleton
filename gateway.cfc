@@ -87,7 +87,7 @@ component {
 		required string text, 
 		string type = 'information'
 	) {
-		log text=arguments.text type=arguments.type file='event-gateway-sksleton';
+		log text=arguments.text type=arguments.type file='event-gateway-skeleton';
 	}
 
 }
